@@ -1,0 +1,206 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usetheme[]{Madrid}
+\usefonttheme{structurebold}
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Egalitarians Membership and Diversity},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\newif\ifbibliography
+\usepackage{longtable,booktabs}
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=white,
+    %filecolor=magenta, 
+    urlcolor=blue,
+    }
+
+
+\title{BE PreDoc Info Session}
+\author[]{Anand A\\anandaani123@gmail.com}
+\date{20th Jan 2021}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Faculty Diversity at IIMs}
+
+\begin{longtable}[]{@{}lcccc@{}}
+\toprule
+Institution (Estd Year) & SC & ST & OTH & Total \tabularnewline
+\midrule
+IIM Calcutta (1961) & 0 & 0 & 83 & 83 \tabularnewline
+IIM Ahmedabad (1961) & 0 & 0 & 96 & 96 \tabularnewline
+IIM Bangalore (1973) & 0 & 0 & 86 & 86 \tabularnewline
+IIM Indore (1996) & 0 & 0 & 88 & 88 \tabularnewline
+IIM Kozhikode (1996) & 1 & 0 & 65 & 66\tabularnewline
+\bottomrule
+\end{longtable}
+  
+
+Source: Joshi and Malghan, 2017, Missing Scholars: Social Exclusion at the Indian Institutes of Management, \textit{IIM Bangalore Research Paper No. 554} \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3015212}{Click here} 
+    
+\end{frame}
+
+\begin{frame}{PreDocs}
+\begin{itemize}
+    \item First Batch - 2018-19: 7 (2 women)
+    \item Second batch - 2019-20: 11 (2 women)
+    \item Third batch - 2020-21: 7 (3 women)
+\end{itemize}
+
+\vspace{1cm}
+\centering
+To know the social diversity of first two PreDoc batches \href{https://drive.google.com/file/d/1axf8vmFTCyADJ_RrOysVxvzUHkiYFlSo/view?usp=sharing}{Click here}
+\end{frame}
+
+\begin{frame}{PreDoc to PhD}
+\begin{itemize}
+    \item Kings College London
+    \item Univ of York England
+    \item Switzerland 
+    \item IIT Madras
+    \item Rest are working as RAs and AAs
+\end{itemize}
+\end{frame}
+    
+\begin{frame}{Perks}
+    \begin{itemize}
+        \item zero tuition fee
+        \item 25k + 8k a month
+        \item 25k contingency
+        \item 25k laptop contingency
+        \item assistance for national / international conferences
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Application}
+    \begin{itemize}
+        \item takes a lot of time
+        \item two academic references
+        \item SOP
+        \item you can apply for two areas at max (10 areas)
+        \item stick to the deadline - 31st Mar 2021
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{SOP}
+Tell a story as to why do you apply for PreDoc, what will you do if get selected, your research potential/interest etc.
+
+Tips:
+\begin{itemize}
+    \item browse through faculty profiles and find if faculty research interests match with yours
+    \item make them understand that you are into research and you will pursue PhD (abroad)
+    \item a brief note about your research question, if you have any
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Once you join!}
+\begin{itemize}
+    \item Prepare and give GRE / TOEFL / IELTS
+    \item learn R / Python / LaTeX
+    \item make sure that you have a working paper (if not published)
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{}
+
+\centering
+Good luck BEians!
+    
+\end{frame}
+\end{document}
